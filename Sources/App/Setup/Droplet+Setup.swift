@@ -2,7 +2,7 @@
 
 extension Droplet {
     public func setup() throws {
-        let routes = Routes(view)
-        try collection(routes)
+        try setupRoutes()
+        // Do any additional droplet setup
     }
 }
